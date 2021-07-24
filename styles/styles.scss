@@ -1,4 +1,23 @@
 
+$color-primary: #F4C13A;
+$color-secondary: #30B395;
+
 .hero-section{
     margin: 16px 14px;
+}
+
+.section-6{
+    margin: 16px;
+}
+
+.button{
+    padding: 16px 14px;
+    outline: none;
+    border: none;
+    background-color: $color-secondary;
+
+    &:hover{
+        background-color: #ccc;
+        color: #000;
+    }
 }

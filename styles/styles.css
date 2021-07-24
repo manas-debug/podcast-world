@@ -1,0 +1,20 @@
+.hero-section {
+  margin: 16px 14px;
+}
+
+.section-6 {
+  margin: 16px;
+}
+
+.button {
+  padding: 16px 14px;
+  outline: none;
+  border: none;
+  background-color: #30B395;
+}
+.button:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+/*# sourceMappingURL=styles.css.map */
