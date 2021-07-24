@@ -125,11 +125,15 @@ body {
   padding: 84px;
 }
 
-.testimonials-card .c1 {
+.testimonials-card {
+  margin: 24px;
+}
+
+.testimonials-card.c1 {
   background-color: #f4c13a;
 }
 
-.testimonials-card .c1 {
+.testimonials-card.c2 {
   background-color: #30b395;
 }
 

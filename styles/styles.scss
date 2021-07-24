@@ -136,10 +136,14 @@ body {
     padding: 84px;
 }
 
-.testimonials-card .c1{
+.testimonials-card{
+    margin: 24px;
+}
+
+.testimonials-card.c1{
     background-color: $color-primary;
 }
 
-.testimonials-card .c1{
+.testimonials-card.c2{
     background-color: $color-secondary;
 }
