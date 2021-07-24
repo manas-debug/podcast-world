@@ -1,23 +1,56 @@
+$color-primary: #f4c13a;
+$color-secondary: #30b395;
+$color-white: #fff;
+$font-primary: "Red Hat Display", sans-serif;
 
-$color-primary: #F4C13A;
-$color-secondary: #30B395;
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap");
 
-.hero-section{
+body {
+    font-family: $font-primary;
+}
+
+.hero-section {
     margin: 16px 14px;
 }
 
-.section-6{
+.section-6 {
     margin: 16px;
 }
 
-.button{
-    padding: 16px 14px;
+.button {
+    padding: 14px 34px;
+    font-size: 18px;
     outline: none;
     border: none;
+    display: block;
+    font-family: $font-primary;
+    font-weight: 500;
     background-color: $color-secondary;
+    color: $color-white;
 
-    &:hover{
+    &:hover {
         background-color: #ccc;
         color: #000;
     }
+}
+
+.hero-heading {
+    font-family: $font-primary;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.hero-subheading {
+    margin-top: 16px;
+    margin-bottom: 40px;
+    display: block;
+
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.hero-image>img {
+    width: 100%;
 }
