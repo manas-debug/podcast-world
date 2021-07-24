@@ -215,3 +215,31 @@ body {
     background-color: $color-grey;
     padding: 8%;
 }
+
+.ig1ef{
+    margin-top: 18px!important;
+}
+
+.ief01{
+    margin: auto; 
+    width: 166px; 
+    margin-top: 24px;
+}
+
+.ief01>a>svg{
+    padding: 4px;
+}
+
+li.foot-list{
+    list-style-type: none;
+    padding: 12px;
+}
+
+li.foot-list>a{
+    text-decoration: none;
+    font-family: $font-primary;
+}
+
+h3.foot-list{
+    padding: 8px 12px;
+}
