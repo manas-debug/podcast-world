@@ -12,29 +12,29 @@ body {
     margin: 0;
 }
 
-.navbar{
+.navbar {
     display: flex;
     flex-direction: row;
 }
 
-.navbar-brand{
+.navbar-brand {
     padding: 12px;
 }
 
-.navbar-nav{
+.navbar-nav {
     position: absolute;
     right: 0;
 }
 
-.nav-link{
+.nav-link {
     list-style-type: none;
     padding: 20% 14px;
 }
 
-.nav-item{
+.nav-item {
     text-decoration: none;
-    padding: 12px 24px!important;
-    background-color: $color-primary!important;
+    padding: 12px 24px !important;
+    background-color: $color-primary !important;
 }
 
 .hero-section {
@@ -106,19 +106,19 @@ body {
 .section-3 > .section-heading {
     text-align: center;
     font-style: normal;
-    font-weight: bold!important;
+    font-weight: bold !important;
 }
 
-.section-4{
+.section-4 {
     padding: 8% 6%;
     background-color: $color-grey;
 }
 
-.section-4 > .section-img > img{
+.section-4 > .section-img > img {
     width: 100%;
 }
 
-.section-4 > .section-text > span{
+.section-4 > .section-text > span {
     margin-top: 16px;
     margin-bottom: 40px;
     display: block;
@@ -130,81 +130,91 @@ body {
 }
 
 @media screen and (min-width: 1430px) {
-    .section-4 > .section-text > h1{
+    .section-4 > .section-text > h1 {
         font-size: 42px;
     }
-    .section-4 > .section-text > span, .hero-subheading{
+    .section-4 > .section-text > span,
+    .hero-subheading {
         font-size: 24px;
     }
 }
 
-.how-it-works{
+.how-it-works {
     padding: 8% 6%;
 }
 
-.how-it-works > h1{
+.how-it-works > h1 {
     align-self: center;
     text-align: center;
 }
 
-.how-it-works > div > div.card{
+.how-it-works > div > div.card {
     margin: 28px;
     //padding: 48px;
     //border: $color-black 1px solid;
 }
 
-.how-it-works > div > div.card > h3{
+.how-it-works > div > div.card > h3 {
     text-align: center;
 }
 
-.how-it-works > div > div.card > img{
+.how-it-works > div > div.card > img {
     width: 100%;
 }
 
-.section-testimonials{
+.section-testimonials {
     padding: 8% 6%;
 }
 
-.section-testimonials>h1{
+.section-testimonials > h1 {
     text-align: center;
 }
 
-.testimonials-card{
+.testimonials-card {
     margin: 24px;
     padding: 10%;
 }
 
-.testimonials-card>div{
-    margin: auto; 
+@media screen and (max-width: 768px) {
+    .testimonials-card {
+        margin-left: 2%!important;
+    }
+    .card{
+        margin: 0px!important;
+    }
+}
+
+.testimonials-card > div {
+    margin: auto;
     width: 50%;
 }
 
-.testimonials-card>h3{
+.testimonials-card > h3 {
     text-align: center;
     color: $color-white;
     margin-top: 14px;
 }
 
-.testimonials-card.c1{
+.testimonials-card.c1 {
     background-color: $color-primary;
 }
 
-.testimonials-card.c2{
+.testimonials-card.c2 {
     background-color: $color-secondary;
 }
 
-.section-7{
+.section-7 {
     padding: 8% 20%;
     background-color: $color-primary;
 }
 
-.section-7>h1{
+.section-7 > h1 {
     text-align: center;
     margin: auto;
     overflow-wrap: break-word;
 }
 
-.section-7>button{
+.section-7 > button {
     margin: auto;
     margin-top: 36px;
     padding: 2% 5%;
@@ -212,35 +222,35 @@ body {
     color: $color-black;
 }
 
-.footer{
+.footer {
     background-color: $color-grey;
     padding: 8%;
 }
 
-.ig1ef{
-    margin-top: 18px!important;
+.ig1ef {
+    margin-top: 18px !important;
 }
 
-.ief01{
-    margin: auto; 
-    width: 166px; 
+.ief01 {
+    margin: auto;
+    width: 166px;
     margin-top: 24px;
 }
 
-.ief01>a>svg{
+.ief01 > a > svg {
     padding: 4px;
 }
 
-li.foot-list{
+li.foot-list {
     list-style-type: none;
     padding: 12px;
 }
 
-li.foot-list>a{
+li.foot-list > a {
     text-decoration: none;
     font-family: $font-primary;
 }
 
-h3.foot-list{
+h3.foot-list {
     padding: 8px 12px;
 }

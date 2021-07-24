@@ -122,7 +122,8 @@ body {
     font-size: 42px;
   }
 
-  .section-4 > .section-text > span, .hero-subheading {
+  .section-4 > .section-text > span,
+.hero-subheading {
     font-size: 24px;
   }
 }
@@ -160,6 +161,15 @@ body {
   padding: 10%;
 }
 
+@media screen and (max-width: 768px) {
+  .testimonials-card {
+    margin-left: 2% !important;
+  }
+
+  .card {
+    margin: 0px !important;
+  }
+}
 .testimonials-card > div {
   margin: auto;
   width: 50%;
