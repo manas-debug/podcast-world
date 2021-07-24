@@ -121,4 +121,16 @@ body {
   width: 100%;
 }
 
+.section-testimonials {
+  padding: 84px;
+}
+
+.testimonials-card .c1 {
+  background-color: #f4c13a;
+}
+
+.testimonials-card .c1 {
+  background-color: #30b395;
+}
+
 /*# sourceMappingURL=styles.css.map */
