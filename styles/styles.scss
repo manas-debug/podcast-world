@@ -1,16 +1,20 @@
 $color-primary: #f4c13a;
 $color-secondary: #30b395;
 $color-white: #fff;
+$color-grey: #f8f8f8;
+$color-black: #000;
 $font-primary: "Red Hat Display", sans-serif;
 
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap");
 
 body {
     font-family: $font-primary;
+    margin: 0;
 }
 
 .hero-section {
-    margin: 16px 14px;
+    margin: 48px 0px !important;
+    padding: 56px 48px;
 }
 
 .section-6 {
@@ -43,6 +47,7 @@ body {
 .hero-subheading {
     margin-top: 16px;
     margin-bottom: 40px;
+    padding: 0px 12px;
     display: block;
 
     font-family: $font-primary;
@@ -51,6 +56,78 @@ body {
     font-size: 18px;
 }
 
-.hero-image>img {
+.hero-image > img {
+    width: 100%;
+}
+
+.section-2 {
+    margin: 0px;
+    padding: 64px 56px;
+    background-color: $color-primary;
+}
+
+.section-2 > h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.section-3 {
+    margin-top: 60px;
+    padding: 96px 56px;
+}
+
+.section-3 > .section-img > img {
+    width: 100%;
+}
+
+.section-3 > .section-heading {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold!important;
+}
+
+.section-4{
+    padding: 72px 56px;
+    background-color: $color-grey;
+}
+
+.section-4 > .section-img > img{
+    width: 100%;
+}
+
+.section-4 > .section-text > span{
+    margin-top: 16px;
+    margin-bottom: 40px;
+    display: block;
+
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.how-it-works{
+    padding: 84px;
+}
+
+.how-it-works > h1{
+    align-self: center;
+    text-align: center;
+}
+
+.how-it-works > div > div.card{
+    margin: 28px;
+    padding: 48px;
+    border: $color-black 1px solid;
+}
+
+.how-it-works > div > div.card > h3{
+    text-align: center;
+}
+
+.how-it-works > div > div.card > img{
     width: 100%;
 }
