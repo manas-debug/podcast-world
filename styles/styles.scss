@@ -12,17 +12,38 @@ body {
     margin: 0;
 }
 
-.hero-section {
-    margin: 48px 0px !important;
-    padding: 56px 48px;
+.navbar{
+    display: flex;
+    flex-direction: row;
 }
 
-.section-6 {
-    margin: 16px;
+.navbar-brand{
+    padding: 12px;
+}
+
+.navbar-nav{
+    position: absolute;
+    right: 0;
+}
+
+.nav-link{
+    list-style-type: none;
+    padding: 20% 14px;
+}
+
+.nav-item{
+    text-decoration: none;
+    padding: 12px 24px!important;
+    background-color: $color-primary!important;
+}
+
+.hero-section {
+    //margin: 3% 0px !important;
+    padding: 5% 8%;
 }
 
 .button {
-    padding: 14px 34px;
+    padding: 3% 6%;
     font-size: 18px;
     outline: none;
     border: none;
@@ -47,7 +68,6 @@ body {
 .hero-subheading {
     margin-top: 16px;
     margin-bottom: 40px;
-    padding: 0px 12px;
     display: block;
 
     font-family: $font-primary;
@@ -62,7 +82,7 @@ body {
 
 .section-2 {
     margin: 0px;
-    padding: 64px 56px;
+    padding: 7% 6%;
     background-color: $color-primary;
 }
 
@@ -76,7 +96,7 @@ body {
 
 .section-3 {
     margin-top: 60px;
-    padding: 96px 56px;
+    padding: 16% 6%;
 }
 
 .section-3 > .section-img > img {
@@ -90,7 +110,7 @@ body {
 }
 
 .section-4{
-    padding: 72px 56px;
+    padding: 8% 6%;
     background-color: $color-grey;
 }
 
@@ -109,8 +129,17 @@ body {
     font-size: 18px;
 }
 
+@media screen and (min-width: 1430px) {
+    .section-4 > .section-text > h1{
+        font-size: 42px;
+    }
+    .section-4 > .section-text > span, .hero-subheading{
+        font-size: 24px;
+    }
+}
+
 .how-it-works{
-    padding: 84px;
+    padding: 8% 6%;
 }
 
 .how-it-works > h1{
@@ -120,8 +149,8 @@ body {
 
 .how-it-works > div > div.card{
     margin: 28px;
-    padding: 48px;
-    border: $color-black 1px solid;
+    //padding: 48px;
+    //border: $color-black 1px solid;
 }
 
 .how-it-works > div > div.card > h3{
@@ -133,7 +162,7 @@ body {
 }
 
 .section-testimonials{
-    padding: 84px;
+    padding: 8% 6%;
 }
 
 .section-testimonials>h1{
@@ -142,6 +171,18 @@ body {
 
 .testimonials-card{
     margin: 24px;
+    padding: 10%;
+}
+
+.testimonials-card>div{
+    margin: auto; 
+    width: 50%;
+}
+
+.testimonials-card>h3{
+    text-align: center;
+    color: $color-white;
+    margin-top: 14px;
 }
 
 .testimonials-card.c1{
@@ -150,4 +191,27 @@ body {
 
 .testimonials-card.c2{
     background-color: $color-secondary;
+}
+
+.section-7{
+    padding: 8% 20%;
+    background-color: $color-primary;
+}
+
+.section-7>h1{
+    text-align: center;
+    margin: auto;
+}
+
+.section-7>button{
+    margin: auto;
+    margin-top: 36px;
+    padding: 2% 5%;
+    background-color: $color-white;
+    color: $color-black;
+}
+
+.footer{
+    background-color: $color-grey;
+    padding: 8%;
 }

@@ -11,18 +11,19 @@
 </head>
 
 <body>
-    <nav>
-        <a href="#">Brand</a>
+    <nav class="navbar">
+        <a class="navbar-brand" href="#"><img style="width: 117px;height: 102px;" src="./assets/png/Podcast_World_Tour_logo.png"></a>
         <div class="navbar-nav">
-            <li><a href="#">Join Now</a></li>
+            <li class="nav-link"><a class="nav-item button" href="#">Join Now</a></li>
         </div>
     </nav>
 
     <div class="body">
-        <div class="hero-section row container">
+        <div class="hero-section row">
             <div class="col-md-6 col-lg-6">
                 <h1 class="hero-heading">Struggling on how to promote and sell your book?</h1>
-                <span class="hero-subheading">Get booked on podcasts! When authors get booked on podcast, they reach a larger audience and sell
+                <span class="hero-subheading">Get booked on podcasts! When authors get booked on podcast, they reach a
+                    larger audience and sell
                     more books</span>
                 <button class="button">Join Now</button>
             </div>
@@ -42,63 +43,95 @@
             </div>
         </div>
         <div class="section-4 row">
-            <div class="section-text col-lg-6">
+            <div class="section-text col-lg-5 col-lx">
                 <h1>We are ready to partner with great authors like you!</h1>
                 <span>Guaranteed podcast interviews with AuthorPodcastBookings.com</span>
                 <button class="button">Join Now</button>
             </div>
-            <div class="section-img col-lg-6">
+            <div class="section-img col-lg-7">
                 <img src="assets/svg/section-4.svg">
             </div>
         </div>
         <div class="how-it-works">
             <h1>How it works</h1>
-            <div class="row container">
+            <!--<div class="row">
                 <div class="card col-lg-5">
                     <img src="./assets/svg/card1.svg" />
-                    <h3 style="margin-top: 48px;">Claim your listing</h3>
+                    <h3 style="margin-top: 15%;">Claim your listing</h3>
                 </div>
                 <div class="card col-lg-5">
                     <img src="./assets/svg/card2.svg" />
-                    <h3 style="margin-top: 32fpx;">Create an Author Profile</h3>
+                    <h3 style="margin-top: 8%;">Create an Author Profile</h3>
                 </div>
                 <div class="card col-lg-5">
                     <img src="./assets/svg/card3.svg" />
-                    <h3>Submit your booking request</h3>
+                    <h3 style="margin-top: 8%;">Submit your booking request</h3>
                 </div>
                 <div class="card col-lg-5">
                     <img src="./assets/svg/card4.svg" />
-                    <h3 style="margin-top: 110px;">Let the software takes care 
+                    <h3 style="margin-top: 42%;">Let the software takes care
                         of the rest!</h3>
+                </div>
+            </div>-->
+            <div class="row">
+                <div class="card col-lg-5">
+                    <img src="./assets/svg/hiw-card1.svg" />
+                </div>
+                <div class="card col-lg-5">
+                    <img src="./assets/svg/hiw-card2.svg" />
+                </div>
+                <div class="card col-lg-5">
+                    <img src="./assets/svg/hiw-card3.svg" />
+                </div>
+                <div class="card col-lg-5">
+                    <img src="./assets/svg/hiw-card4.svg" />
                 </div>
             </div>
         </div>
         <div class="section-testimonials">
             <h1>Testimonials</h1>
             <div class="row">
-                <div class="testimonials-card c1 col-lg-5">
-                    <svg width="150" height="175" viewBox="0 0 150 175" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M126.931 129.121C138.725 114.188 137.538 95.0105 137.5 94.7917V36.4584C137.5 34.5245 136.842 32.6699 135.669 31.3024C134.497 29.935 132.908 29.1667 131.25 29.1667H93.75C86.8563 29.1667 81.25 35.7074 81.25 43.7501V94.7917C81.25 96.7256 81.9085 98.5802 83.0806 99.9477C84.2527 101.315 85.8424 102.083 87.5 102.083H106.738C106.605 105.688 105.682 109.193 104.056 112.263C100.881 118.103 94.9 122.092 86.2688 124.104L81.25 125.271V145.833H87.5C104.894 145.833 118.163 140.211 126.931 129.121ZM58.1375 129.121C69.9375 114.188 68.7438 95.0105 68.7063 94.7917V36.4584C68.7063 34.5245 68.0478 32.6699 66.8757 31.3024C65.7036 29.935 64.1139 29.1667 62.4563 29.1667H24.9563C18.0625 29.1667 12.4563 35.7074 12.4563 43.7501V94.7917C12.4563 96.7256 13.1147 98.5802 14.2869 99.9477C15.459 101.315 17.0487 102.083 18.7063 102.083H37.9438C37.8117 105.688 36.8885 109.193 35.2625 112.263C32.0875 118.103 26.1063 122.092 17.475 124.104L12.4563 125.271V145.833H18.7063C36.1 145.833 49.3688 140.211 58.1375 129.121Z"
-                            fill="#707070" fill-opacity="0.25" />
-                    </svg>
+                <!--<div class="testimonials-card c1 col-lg-5">
+                    <div>
+                        <svg width="150" height="175" viewBox="0 0 150 175" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M126.931 129.121C138.725 114.188 137.538 95.0105 137.5 94.7917V36.4584C137.5 34.5245 136.842 32.6699 135.669 31.3024C134.497 29.935 132.908 29.1667 131.25 29.1667H93.75C86.8563 29.1667 81.25 35.7074 81.25 43.7501V94.7917C81.25 96.7256 81.9085 98.5802 83.0806 99.9477C84.2527 101.315 85.8424 102.083 87.5 102.083H106.738C106.605 105.688 105.682 109.193 104.056 112.263C100.881 118.103 94.9 122.092 86.2688 124.104L81.25 125.271V145.833H87.5C104.894 145.833 118.163 140.211 126.931 129.121ZM58.1375 129.121C69.9375 114.188 68.7438 95.0105 68.7063 94.7917V36.4584C68.7063 34.5245 68.0478 32.6699 66.8757 31.3024C65.7036 29.935 64.1139 29.1667 62.4563 29.1667H24.9563C18.0625 29.1667 12.4563 35.7074 12.4563 43.7501V94.7917C12.4563 96.7256 13.1147 98.5802 14.2869 99.9477C15.459 101.315 17.0487 102.083 18.7063 102.083H37.9438C37.8117 105.688 36.8885 109.193 35.2625 112.263C32.0875 118.103 26.1063 122.092 17.475 124.104L12.4563 125.271V145.833H18.7063C36.1 145.833 49.3688 140.211 58.1375 129.121Z"
+                                fill="#707070" fill-opacity="0.25" />
+                        </svg>
+                    </div>
                     <h3>I saw a 58% increase in bookings with podcasts when comparing to DIY or agencies</h3>
                 </div>
                 <div class="testimonials-card c2 col-lg-5">
-                    <svg width="150" height="175" viewBox="0 0 150 175" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M126.931 129.121C138.725 114.188 137.538 95.0105 137.5 94.7917V36.4584C137.5 34.5245 136.842 32.6699 135.669 31.3024C134.497 29.935 132.908 29.1667 131.25 29.1667H93.75C86.8563 29.1667 81.25 35.7074 81.25 43.7501V94.7917C81.25 96.7256 81.9085 98.5802 83.0806 99.9477C84.2527 101.315 85.8424 102.083 87.5 102.083H106.738C106.605 105.688 105.682 109.193 104.056 112.263C100.881 118.103 94.9 122.092 86.2688 124.104L81.25 125.271V145.833H87.5C104.894 145.833 118.163 140.211 126.931 129.121ZM58.1375 129.121C69.9375 114.188 68.7438 95.0105 68.7063 94.7917V36.4584C68.7063 34.5245 68.0478 32.6699 66.8757 31.3024C65.7036 29.935 64.1139 29.1667 62.4563 29.1667H24.9563C18.0625 29.1667 12.4563 35.7074 12.4563 43.7501V94.7917C12.4563 96.7256 13.1147 98.5802 14.2869 99.9477C15.459 101.315 17.0487 102.083 18.7063 102.083H37.9438C37.8117 105.688 36.8885 109.193 35.2625 112.263C32.0875 118.103 26.1063 122.092 17.475 124.104L12.4563 125.271V145.833H18.7063C36.1 145.833 49.3688 140.211 58.1375 129.121Z"
-                            fill="#707070" fill-opacity="0.25" />
-                    </svg>
-                    <h3>I saw a 58% increase in bookings with podcasts when comparing to DIY or agencies</h3>
+                    <div>
+                        <svg width="150" height="175" viewBox="0 0 150 175" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M126.931 129.121C138.725 114.188 137.538 95.0105 137.5 94.7917V36.4584C137.5 34.5245 136.842 32.6699 135.669 31.3024C134.497 29.935 132.908 29.1667 131.25 29.1667H93.75C86.8563 29.1667 81.25 35.7074 81.25 43.7501V94.7917C81.25 96.7256 81.9085 98.5802 83.0806 99.9477C84.2527 101.315 85.8424 102.083 87.5 102.083H106.738C106.605 105.688 105.682 109.193 104.056 112.263C100.881 118.103 94.9 122.092 86.2688 124.104L81.25 125.271V145.833H87.5C104.894 145.833 118.163 140.211 126.931 129.121ZM58.1375 129.121C69.9375 114.188 68.7438 95.0105 68.7063 94.7917V36.4584C68.7063 34.5245 68.0478 32.6699 66.8757 31.3024C65.7036 29.935 64.1139 29.1667 62.4563 29.1667H24.9563C18.0625 29.1667 12.4563 35.7074 12.4563 43.7501V94.7917C12.4563 96.7256 13.1147 98.5802 14.2869 99.9477C15.459 101.315 17.0487 102.083 18.7063 102.083H37.9438C37.8117 105.688 36.8885 109.193 35.2625 112.263C32.0875 118.103 26.1063 122.092 17.475 124.104L12.4563 125.271V145.833H18.7063C36.1 145.833 49.3688 140.211 58.1375 129.121Z"
+                                fill="#707070" fill-opacity="0.25" />
+                        </svg>
+                    </div>
+                    <h3>I was booked and went on a great podcast within three days!</h3>
+                </div>-->
+                <div class="testimonials-card c1 col-lg-5">
+                    <img style="width: 100%;" src="assets/svg/testimonials1.svg">
+                </div>
+                <div class="testimonials-card c2 col-lg-5">
+                    <img style="width: 100%;" src="assets/svg/testimonials2.svg">
                 </div>
             </div>
         </div>
         <div class="section-7">
             <h1>Create your author profile on AuthorPodcastBookings.com today!</h1>
-            <button>Join Now</button>
+            <button class="button">Join Now</button>
         </div>
     </div>
+    <footer class="footer">
+        <div>
+            <img src="./assets/png/Podcast_World_Tour_logo.png">
+            
+        </div>
+    </footer>
 </body>
 
 </html>
